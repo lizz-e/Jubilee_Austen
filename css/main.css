@@ -1,0 +1,241 @@
+/****** Global Styles ******/
+/* *{
+    border: 3px dotted red;
+} */
+
+body{
+    font-family:'Source Sans 3', sans-serif;
+    color: #5e5d5e;
+}
+
+.content-wrapper{    /*setting up the site width & to center website*/
+    width: 1200px;
+    margin: 0 auto; /* center website and calculate left & right*/
+    overflow: auto; /*makes website adjust  to diffrent screen size*/
+}   
+
+
+
+/****** Header Styles ******/
+
+.homepage-hero{
+    background: url('../img/full-background.png') no-repeat #F9EFEF;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    width: 300px;
+    color: #7b7e54;
+    float: left;
+    padding: 65px 0 65px 25px; /* top right bottom left*/
+}
+
+header nav{
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727172;
+    padding-left: 50px;
+}
+
+header h2{
+    width: 1000px;
+    /* clear: both is how you "clear the floats from both sides" */
+    clear: both;  /*fixes the h2 text from the top */
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 82px;
+    color: #817F80;
+    padding: 20px 0 20px 25px;
+}
+
+
+/****** About Styles ******/
+
+#about .content-wrapper{
+    padding: 80px 0;
+}
+
+#about h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding: 0 50px;
+}
+
+#about p{
+    font-size: 20px;
+    line-height: 40px;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+
+/****** Skill Styles ******/
+
+#skills{
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+#skills .content-wrapper{
+    padding: 115px 0;
+}
+
+#skills h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#skills .skill-list{
+    width: 294px;
+    float: left;
+    padding:0 50px;
+}
+
+#skills .skill-list h3{
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#skills .skill-list p{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+
+/****** Contact Styles ******/
+
+#contact{
+    background-color: #F9E9E9;
+}
+
+#contact .content-wrapper{
+    padding: 110px 0;
+}
+
+#contact .contact-image{ /*image container*/
+    float: left;
+    width: 600px;
+}
+
+#contact-img{
+    width: 500px;
+    border: 10px solid white;
+    margin: 0 40px;
+    box-sizing: border-box;
+}
+
+#contact .contact-info{
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+#contact h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+#contact h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 5px;
+}
+
+#email{
+    margin-bottom: 20px;
+}
+
+#email-icon{
+    padding-right: 5px;
+}
+
+#email-add{
+    color: #5E5D5E;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+/* socials */
+
+ #contact ul li{
+    display: inline-block;
+}
+
+#contact ul img{
+    padding-right: 35px;
+}
+
+#contact ul{       /*takes out the websites automatic margins & padding*/
+    margin-top: 0;
+    padding-left: 0;
+}
+
+/****** Projects Page Styles ******/
+
+header{
+    background-color: #F9E9E9;
+}
+
+/* Projects Page Projects Styles */
+
+#projects{
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+#projects .content-wrapper{
+    padding: 115px 0;
+}
+
+#projects h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#projects .project-list{
+    width: 294px;
+    float: left;
+    padding:0 50px;
+}
+
+#projects .project-list h3{
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+
+#projects .project-list p{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+#projects img{
+    width: 300px;
+}
